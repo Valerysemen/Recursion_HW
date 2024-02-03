@@ -8,7 +8,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Enter two numbers M and N:");
+        Console.WriteLine("Введите два числа M и N:");
         int m = int.Parse(Console.ReadLine());
         int n = int.Parse(Console.ReadLine());
 
