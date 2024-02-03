@@ -9,8 +9,8 @@ class Program
     static void Main()
     {
         Console.WriteLine("Введите два числа M и N:");
-        int m = int.Parse(Console.ReadLine());
-        int n = int.Parse(Console.ReadLine());
+        int m = int.Parse(Console.ReadLine()!);
+        int n = int.Parse(Console.ReadLine()!);
 
         PrintNumbersInRange(m, n);
     }
